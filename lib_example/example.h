@@ -5,4 +5,6 @@
 
 float division(int a, int b);
 
+float plus(int a, int b);
+
 #endif  // LIB_EXAMPLE_EXAMPLE_H_
