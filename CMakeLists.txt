@@ -11,6 +11,7 @@ include(cmake/function.cmake)    # подхватываем функции, ре
 								 # и для создания исполняемого проекта в отдельные функции
 
 add_subdirectory(lib_example)    # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_example
+add_subdirectory(lib_example_2)    # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_example_2
 add_subdirectory(lib_matrix)     # подключаем дополнительный CMakeLists.txt из подкаталога с именем lib_matrix
 add_subdirectory(main)           # подключаем дополнительный CMakeLists.txt из подкаталога с именем main
 
@@ -20,3 +21,5 @@ if(BTEST)                        # если тесты подключены
     add_subdirectory(gtest)      # подключаем дополнительный CMakeLists.txt из подкаталога с именем gtest
     add_subdirectory(tests)      # подключаем дополнительный CMakeLists.txt из подкаталога с именем test
 endif()
+
+set(CMAKE_SUPPRESS_REGENERATION true)
