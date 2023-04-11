@@ -59,6 +59,10 @@ https://en.cppreference.com/w/cpp/error/assert
 * Статья на подумать - "Выбор правильной стратегии обработки ошибок (части 1 и 2)"
 https://habr.com/ru/company/vk/blog/322416/
 
+* ИНОЕ
+https://drive.google.com/file/d/1bSonDTq2usxQJDg90SlUAf5lHkw0OKbF/view?usp=sharing
+https://drive.google.com/file/d/1IuFK3Ty13-eWnnzTk7a6QBZ9j-_H5wzK/view?usp=sharing
+
 ## Краткие описания лабораторных работ
 
 ### Лабораторная работа МАТРИЦЫ
